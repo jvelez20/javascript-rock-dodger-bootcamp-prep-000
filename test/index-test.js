@@ -8,7 +8,7 @@ describe('Rock Dodger', () => {
      * DODGER starts out at left = 180px
      */
     describe('rock is <= 360px from the top of GAME', () => {
-      it('does not collide', () => {
+      console.log('does not collide', () => {
         let rock = document.createElement('div')
         rock.className = 'rock'
         rock.style.top = '2px'
